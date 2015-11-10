@@ -4,3 +4,4 @@ default.quoteapp.group = 'quoteapp_group'
 default.quoteapp.node_version = 'stable'
 default.quoteapp.create_install_dir = true
 default.quoteapp.autostart = true
+default.quoteapp.port = 80

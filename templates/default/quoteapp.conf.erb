@@ -14,5 +14,5 @@ setgid <%= node['quoteapp']['group'] %>
 
 script
   cd <%= node['quoteapp']['install_dir'] %>
-  exec npm start > /dev/null
+  PORT=<%= node['quoteapp']['port'] %> exec npm start > /dev/null
 end script
