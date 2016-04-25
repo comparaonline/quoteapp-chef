@@ -14,5 +14,5 @@ setgid <%= node['quoteapp']['group'] %>
 
 script
   cd <%= node['quoteapp']['install_dir'] %>
-  PORT=<%= node['quoteapp']['port'] %> exec npm start > /dev/null
+  NODE_CONFIG='<%= {logger_app_url: node['quoteapp']['logger_app_url']}.to_s %>' node['quoteapp']['logger_app_url'] %>}' nexec npm start > /dev/null
 end script

@@ -3,6 +3,10 @@ quoteapp CHANGELOG
 
 This file is used to list changes made in each version of the quoteapp cookbook.
 
+0.1.1
+-----
+- [gjorquera] - Make loggerapp url configurable
+
 0.1.0
 -----
 - [erabinovich] - Initial release of quoteapp
