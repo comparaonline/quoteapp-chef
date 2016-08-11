@@ -32,3 +32,7 @@ template "/etc/init/quoteapp.conf" do
   mode '0644'
   action :create
 end
+
+execute 'npm install' do
+  cwd node['quoteapp']['install_dir']
+end
