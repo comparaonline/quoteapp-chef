@@ -3,6 +3,10 @@ quoteapp CHANGELOG
 
 This file is used to list changes made in each version of the quoteapp cookbook.
 
+0.1.3
+-----
+- [erabinovich] - Run npm install
+
 0.1.2
 -----
 - [gjorquera] - Make loggerapp url configurable
