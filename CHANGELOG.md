@@ -3,9 +3,13 @@ quoteapp CHANGELOG
 
 This file is used to list changes made in each version of the quoteapp cookbook.
 
+0.1.4
+-----
+- [erabinovich] - Add user and group to the `npm install` command
+
 0.1.3
 -----
-- [erabinovich] - Run npm install
+- [erabinovich] - Run `npm install`
 
 0.1.2
 -----
