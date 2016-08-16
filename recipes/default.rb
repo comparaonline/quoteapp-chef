@@ -35,4 +35,6 @@ end
 
 execute 'npm install' do
   cwd node['quoteapp']['install_dir']
+  user node['quoteapp']['user']
+  group node['quoteapp']['group']
 end
