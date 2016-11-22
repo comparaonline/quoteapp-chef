@@ -37,5 +37,5 @@ execute 'npm install' do
   cwd node['quoteapp']['install_dir']
   user node['quoteapp']['user']
   group node['quoteapp']['group']
-  environment ({'HOME' => '/home/vagrant'})
+  environment ({'HOME' => node['quoteapp']['user_home'] || "/home/#{node['quoteapp']['user']}"})
 end
